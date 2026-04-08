@@ -3,6 +3,7 @@
 }
 .title {
   font-size: 5rem;
+  color:#ccc;
   font-weight: bold;
   animation: fadeInDown 1s ease-in-out;
 }

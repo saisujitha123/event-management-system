@@ -1,11 +1,17 @@
 body {
   background: linear-gradient(135deg, #141e30, #243b55);
-  color: white;
+  color: rgb(25, 25, 25);
   font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+p, span {
+  color: #1b1b1b;
 }
 .card {
   background: #1e1e1e;
-  color: white;
+  color: rgb(25, 25, 25);
   border-radius: 15px;
   transition: 0.3s;
 }
@@ -21,11 +27,11 @@ body {
 }
 .event-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0px 15px 30px rgba(0,0,0,0.5);
+  box-shadow: 0px 15px 30px rgba(20, 19, 19, 0.5);
 }
 input {
-  background: #2c2c2c !important;
-  color: white !important;
+  background: #1f1d1d !important;
+  color: rgb(243, 237, 237) !important;
   border: none !important;
 }
 .btn-primary {
@@ -36,17 +42,40 @@ input {
   background: #36a2d4;
 }
 .navbar {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  height: 80px;
+  padding: 0 50px;
   background: linear-gradient(120deg, #ff512f, #dd2476) !important;
 }
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white !important;
+}
 .nav-link {
-  font-size:30px;
+  font-size: 18px;
+  color: white !important;
+  margin: 0 10px;
   transition: 0.3s;
 }
 .nav-link:hover {
   color: yellow !important;
-  transform: translateY(-5px);
+  transform: translateY(-3px);
+}
+.price, .seats {
+  color: #272525 !important;
+  font-weight: bold;
+  font-size: 16px;
+}
+.card, .contact-card {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+.card h1, .card h2, .card h3,
+.card h4, .card h5, .card h6 {
+  color: #34cc83 !important;
+}
+.card p {
+  color: #b0306a !important;
 }
 .fade-in {
   animation: fadeIn 0.8s ease-in;
