@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/event-management-system/static/css/main.ec98e9cc.css",
+    "main.js": "/event-management-system/static/js/main.a861480d.js",
+    "static/media/hackathon.jpg": "/event-management-system/static/media/hackathon.21f9bd10e6b33b3b05d8.jpg",
+    "static/media/gaming.jpg": "/event-management-system/static/media/gaming.a62c4502267879a5e800.jpg",
+    "static/media/music.jpg": "/event-management-system/static/media/music.d5f84c7d696debb394df.jpg",
+    "static/media/digital.jpg": "/event-management-system/static/media/digital.663382ec5a9c091a3605.jpg",
+    "static/media/indie.jpg": "/event-management-system/static/media/indie.e520091ff6f41dbd64cc.jpg",
+    "static/media/startup.jpg": "/event-management-system/static/media/startup.4c2dbd06f1594b1bfcbe.jpg",
+    "static/media/food.jpg": "/event-management-system/static/media/food.1641e559193791cf5c09.jpg",
+    "static/media/league.jpg": "/event-management-system/static/media/league.83af0b225ca0be4132bf.jpg",
+    "static/media/art.jpg": "/event-management-system/static/media/art.08cb7b129db0ffc8bb99.jpg",
+    "static/media/tech.jpg": "/event-management-system/static/media/tech.a6a5b7d885d9bb96c444.jpg",
+    "static/media/streetfood.jpg": "/event-management-system/static/media/streetfood.140c5fd1fc68a17de173.jpg",
+    "index.html": "/event-management-system/index.html",
+    "main.ec98e9cc.css.map": "/event-management-system/static/css/main.ec98e9cc.css.map",
+    "main.a861480d.js.map": "/event-management-system/static/js/main.a861480d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec98e9cc.css",
+    "static/js/main.a861480d.js"
+  ]
+}
