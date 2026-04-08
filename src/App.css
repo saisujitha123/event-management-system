@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.card {
+  background: #1e1e1e;
+  color: white;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+.event-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.event-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.5);
+}
+input {
+  background: #2c2c2c !important;
+  color: white !important;
+  border: none !important;
+}
+.btn-primary {
+  background: #07dfc3;
+  border: none;
+}
+.btn-primary:hover {
+  background: #36a2d4;
+}
+.navbar {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(120deg, #ff512f, #dd2476) !important;
+}
+.nav-link {
+  font-size:30px;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: yellow !important;
+  transform: translateY(-5px);
+}
+.fade-in {
+  animation: fadeIn 0.8s ease-in;
+}
+.slide-up {
+  animation: slideUp 0.8s ease-in-out;
+}
+.zoom-in {
+  animation: zoomIn 0.8s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes zoomIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
